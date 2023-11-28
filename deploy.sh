@@ -12,13 +12,14 @@ push_branch=gh-pages # 推送的分支
 # 生成静态文件
 npm run build
 
-# 进入生成的文件夹
-cd $dist_path
-
 git init
 git add -A
 git commit -m "deploy, $commit_info"
 git push -f $push_addr HEAD:$push_branch
+
+# 进入生成的文件夹
+cd $dist_path
+
 
 cd -
 rm -rf $dist_path
