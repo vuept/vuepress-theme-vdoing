@@ -10,10 +10,12 @@ tagline: 积跬步以至千里，致敬每个爱学习的你。
 features: # 可选的
   - title: 技术
     details: 技术文档、教程、技巧、总结等文章
-    link: /develop/ # 可选
+    link: /categories/?category=大后端 # 可选
     imgUrl: /img/other.png # 可选
   - title: 前端
     details: JavaScript、ES6、Vue框架等前端技术
+    link: /categories/?category=大前端 # 可选
+    imgUrl: /img/other.png # 可选
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed
