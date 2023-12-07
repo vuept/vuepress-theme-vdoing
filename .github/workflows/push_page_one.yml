@@ -18,9 +18,9 @@ jobs: # 工作流
         uses: actions/setup-node@v3
         with: # 设定参数
           node-version: 18.x
-      - name: pwd
-        run: pwd
-      - name: ls
-        run: ls
-      - name: Install
+      - name: install
+        run: npm install
+      - name: build
+        run: npm run build
+      - name: push
         run: sh deploy.sh
