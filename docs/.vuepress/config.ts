@@ -130,7 +130,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2023, // 博客创建年份
       copyrightInfo:
-        'GitHub预留 | <a href="https://github.com/vuept" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+        '<a href="https://www.5431998.xyz/">智慧</a> | <a href="https://beian.miit.gov.cn/">豫ICP备2021032954号-1</a> | 本站由<a href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral"><img src="https://img.5431998.xyz/vblog/img/%E5%8F%88%E6%8B%8D%E4%BA%91_logo2.png" style="width: 50px;">提供CDN加速/云储存服务</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
