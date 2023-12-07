@@ -19,16 +19,4 @@ jobs: # 工作流
         with: # 设定参数
           node-version: 18.x
       - name: Install
-        run: npm install # 运行脚本命令
-      - name: build
-        run: npm run build # 运行脚本命令
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          # upload entire directory
-          path: '.'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+        run: sh deploy.sh
