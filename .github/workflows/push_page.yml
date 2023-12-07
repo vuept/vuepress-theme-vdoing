@@ -18,9 +18,8 @@ jobs: # 工作流
         uses: actions/setup-node@v3
         with: # 设定参数
           node-version: 18.x
-          cache: npm
       - name: Install
-        run: npm ci # 运行脚本命令
+        run: npm ci && npm run build # 运行脚本命令
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload Artifact
